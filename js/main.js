@@ -1,3 +1,24 @@
+console.log("coucou");
+
+console.log(4 ** 67);
+
+let total = 56;
+
+total++;
+total += 475;
+
+console.log(total);
+
+let x = 45;
+let y = 49;
+
+if (x > y) {
+  alert("YES! Bitch");
+} else if (x < y) {
+  alert("NEIN! Das ist nicht ride");
+} else {
+  alert("Egalité homme/femme");
+}
 
 var one = document.querySelector(".change-color");
 var two = document.querySelector(".toggle-color");
