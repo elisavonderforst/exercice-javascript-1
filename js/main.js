@@ -9,17 +9,6 @@ total += 475;
 
 console.log(total);
 
-let x = 45;
-let y = 49;
-
-if (x > y) {
-  alert("YES! Bitch");
-} else if (x < y) {
-  alert("NEIN! Das ist nicht ride");
-} else {
-  alert("Egalité homme/femme");
-}
-
 var one = document.querySelector(".change-color");
 var two = document.querySelector(".toggle-color");
 var three = document.querySelector(".trigger");
@@ -28,25 +17,34 @@ var five = document.querySelector(".trigger-all");
 var six = document.querySelector(".trigger-all-self");
 
 var changeOne = function () {
-  one.classList.toggle("is-active");
+  one.classList.toggle("is-blue");
 };
 
 one.addEventListener("click", changeOne);
 
 var toggleTwo = function () {
-  two.classList.toggle("is-active");
+  two.classList.toggle("is-red");
 };
 
 two.addEventListener("click", toggleTwo);
 
 var triTaopa = function () {
-  four.classList.toggle("is-open");
+  four.classList.toggle("is-hiden");
 };
 
 three.addEventListener("click", triTaopa);
 
-var targetAll = function () {
-  four.classList.toggle("is-active");
+var colorChangefive = function () {
+  one.classList.toggle("is-blue");
+  two.classList.toggle("is-red");
 };
 
-five.addEventListener("click", targetAll);
+five.addEventListener("click", colorChangefive);
+
+var colorChangesix = function () {
+  one.classList.toggle("is-blue");
+  two.classList.toggle("is-red");
+  six.classList.toggle("is-green");
+};
+
+six.addEventListener("click", colorChangesix);

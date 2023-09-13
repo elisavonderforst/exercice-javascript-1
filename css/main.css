@@ -44,7 +44,7 @@ h1 {
   background: var(--yellow-color);
 }
 
-.box.change-color.is-active {
+.box.change-color.is-blue {
   background: blue;
 }
 
@@ -52,7 +52,7 @@ h1 {
   background: var(--orange-color);
 }
 
-.box.toggle-color.is-active {
+.box.toggle-color.is-red {
   background: var(--red-color);
 }
 
@@ -60,12 +60,8 @@ h1 {
   background: var(--violet-color);
 }
 
-.box.target.is-open {
+.box.target.is-hiden {
   opacity: 0;
-}
-
-.box.target.is-active {
-  opacity: 100%;
 }
 
 .box.target {
@@ -78,4 +74,8 @@ h1 {
 
 .box.trigger-all-self {
   background: var(--blue-color);
+}
+
+.box.trigger-all-self.is-green {
+  background: var(--green-color);
 }
