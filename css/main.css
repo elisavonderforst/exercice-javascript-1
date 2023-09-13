@@ -44,12 +44,28 @@ h1 {
   background: var(--yellow-color);
 }
 
+.box.change-color.is-active {
+  background: blue;
+}
+
 .box.toggle-color {
   background: var(--orange-color);
 }
 
+.box.toggle-color.is-active {
+  background: var(--red-color);
+}
+
 .box.trigger {
   background: var(--violet-color);
+}
+
+.box.target.is-open {
+  opacity: 0;
+}
+
+.box.target.is-active {
+  opacity: 100%;
 }
 
 .box.target {
